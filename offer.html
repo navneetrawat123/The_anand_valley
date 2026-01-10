@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>The Anand Valley | Coffee House</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+    </div>
+    <style>
+        :root {
+            --primary: #e67e22;
+            --dark: #2c3e50;
+            --accent: #e66557;
+        }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; line-height: 3; }
+        .promo-bar {
+            background: var(--accent);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            animation: flash 1.5s infinite;
+        }
+        @keyframes flash {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; background: #ff0000; }
+            100% { opacity: 1; }
+        }
+        .hero {
+    height: 56vh;
+    background: #edf5ed;
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+        
+        .menu-container { max-width: 1000px; margin: 40px auto; padding: 20px; }
+        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .menu-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover { transform: scale(1.02); }
+        .discount-tag {
+            background: #27ae60;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .price { font-weight: bold; color: var(--primary); font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+
+    <div class="promo-bar">
+        🔥 FLASH DEAL: 20% OFF ON ALL FAST FOOD ITEMS TILL 7PM! 🍾 FREE DRINK(250 ml) ABOVE 250 ORDER!🔥
+    </div>
+
+    <header class="hero">
+        <div class="text-center z-10 px-4">
+            <h1 class="text-5xl md:text-7xl mb-4">The Anand Valley</h1>
+            <p class="text-lg md:text-xl font-light tracking-widest uppercase">Restaurant • Catering • Destination wedding • Event Planning</p>
+           <div style="display: flex; justify-content:center;">
+           
+          </div>
+        </div>
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+    </header>
+
+    <section class="menu-container">
+        <h2 style="text-align: center;">Valid Offers</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <span class="discount-tag">Save 20%</span>
+                <h3>Signature Cheese Burger🍔</h3>
+                <p>Triple-prime cheese, brioche bun, and secret house sauce.</p>
+                <p class="price">112 Offer Price<span style="text-decoration: line-through; color: #999; font-size: 0.9rem;"></span></p>
+            </div>
+
+            <div class="menu-item">
+                <span class="discount-tag">Up comming Deals</span>
+                <h3>Truffle Mushroom Pasta</h3>
+                <p>Freshly made fettuccine with seasonal black truffles.</p>
+                <p class="price">Disclose soon </p>
+            </div>
+
+            <div class="menu-item">
+                <span class="discount-tag">Fresh Deals on Coffee</span>
+                <h3>Espresso, Cappuccino, Latte☕</h3>
+                <p>Wild roasted Fresh Beans </p>
+                <p class="price">40 Each</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
